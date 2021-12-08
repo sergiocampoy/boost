@@ -1,0 +1,16 @@
+#+TITLE: Multiplicación de matrices con Python Boost
+
+Implementación del algoritmo de multiplicación de matrices en Python Boost y comparación de resultados con Numpy y Python vanilla.
+
+* Algunos resultados
+
+| Versión | Nº Ejecuciones | Tamaño Matriz | Tiempo (s) |
+| Python  |          10000 |            10 |  10.181471 |
+| C++     |          10000 |            10 |   0.093210 |
+| Numpy   |          10000 |            10 |   0.023823 |
+| Python  |             10 |           100 |  10.090813 |
+| C++     |             10 |           100 |   0.069078 |
+| Numpy   |             10 |           100 |   0.013491 |
+| Python  |              1 |           250 |  15.724363 |
+| C++     |              1 |           250 |   0.154597 |
+| Numpy   |              1 |           250 |   0.013679 |
