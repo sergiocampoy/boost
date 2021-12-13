@@ -1,8 +1,12 @@
-#+TITLE: Multiplicación de matrices con Python Boost
+#+TITLE: Ejemplos de implementación de Python Boost
 
+* Hello
+Ejemplo de Hello World. Implementa una función en C++ que devuelve "Hello world" y la muestra desde Python.
+
+* Multiplicación de Matrices
 Implementación del algoritmo de multiplicación de matrices en Python Boost y comparación de resultados con Numpy y Python vanilla.
 
-* Algunos resultados
+** Algunos resultados
 
 | Versión | Nº Ejecuciones | Tamaño Matriz | Tiempo (s) |
 | Python  |          10000 |            10 |  10.181471 |
@@ -14,3 +18,9 @@ Implementación del algoritmo de multiplicación de matrices en Python Boost y c
 | Python  |              1 |           250 |  15.724363 |
 | C++     |              1 |           250 |   0.154597 |
 | Numpy   |              1 |           250 |   0.013679 |
+
+* Multiplica Vector
+Implementa una función para multiplicar todos los elementos de un vector por 2.
+
+* Suma vector
+Implementa una función que calcula la suma de todos los elementos de un vector.
